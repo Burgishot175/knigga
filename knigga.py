@@ -8,7 +8,7 @@ books = [
 ]
 
 
-st.title("📚 1312 dvamata razboinika")
+st.title("📚 Book Checker App")
 st.write("Enter a book title to check if it exists in the database.")
 
 user_input = st.text_input("Book Title")
