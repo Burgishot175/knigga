@@ -24,10 +24,10 @@ if st.button(" Покажи всички книги"):
     st.write("Няма добавени книги.")
 else:
   for book in st.session state.books:
-  st.write("Заглавие:", book["title"])
-  st.write("Автор:", book ["author"])
-  st.write("Цена:", book ["price"])
-  st.write("-------")
+    st.write("Заглавие:", book["title"])
+    st.write("Автор:", book ["author"])
+    st.write("Цена:", book ["price"])
+    st.write("-------")
 
 st.header(" Търсене по автор")
 search_author = st.text_input("Въведи име на автор")
