@@ -10,13 +10,13 @@ author = st.text_input("Автор")
 price = st.number_input("Цена", min_value=0.0)
 if st.button("Добави книгата"):
     
-  book = {
+    book = {
     "title": title,
     "author": author,
     "price": price
   }
-st.session_state.books.append(book)
-st.success("Книгата е добавена!")
+    st.session_state.books.append(book)
+    st.success("Книгата е добавена!")
 
 if st.button(" Покажи всички книги"):
 
