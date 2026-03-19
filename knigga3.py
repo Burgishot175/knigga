@@ -10,6 +10,9 @@ author = st.text_input("Автор")
 price = st.number_input("Цена", min_value=0.0)
 if st.button("Добави книгата"):
 
+if "books" not in st.session_state:
+    st.session_state.books = []
+    
   book = {
     "title": title,
     "author": author,
