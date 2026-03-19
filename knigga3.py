@@ -16,7 +16,7 @@ if st.button("Добави книгата"):
     "price": price
   }
 st.session_state.books.append(book)
-    st.success("Книгата е добавена!")
+st.success("Книгата е добавена!")
 
 if st.button(" Покажи всички книги"):
 
