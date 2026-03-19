@@ -15,8 +15,8 @@ if st.button("Добави книгата"):
     "author": author,
     "price": price
   }
-st.session_state.books.append(book)
-st.success("Книгата е добавена!")
+    st.session_state.books.append(book)
+    st.success("Книгата е добавена!")
 
 if st.button(" Покажи всички книги"):
 
